@@ -12,15 +12,19 @@
     justify-content: center;
 }
 
-.about-me-text h2{
-    font-size: 5.2rem;
-    margin-bottom: 5rem;
-    text-transform: uppercase;
-    line-height: 1;
-}
 
 .about-me-img img{
     max-width: 50%;
     height: auto;
     margin-left: 26rem;  
+}
+
+.top3-jobs{
+    max-width: 64rem; 
+    display: flex;
+    height: 100vh;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: center;
+    
 }
