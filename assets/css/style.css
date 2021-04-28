@@ -64,10 +64,8 @@
     transform: rotate(5deg);
 }
 
-.grid-main-heading h2{
-    margin-bottom: 1rem;
-}
 
-.grid-description{
-    padding-bottom: 5rem;
+
+.grid-main-heading{
+    margin-bottom: 15rem;
 }
