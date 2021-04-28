@@ -3,12 +3,13 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: var(--gap);
+    min-height: 100vh;
 
 }
 
 .about-me-text, .intro-img{
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     justify-content: center;
 }
 
@@ -17,6 +18,7 @@
     max-width: 50%;
     height: auto;
     margin-left: 26rem;  
+
 }
 
 .top3-jobs{
@@ -27,4 +29,45 @@
     justify-content: center;
     text-align: center;
     
+}
+
+.grid-one-content{
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: var(--gap);
+    counter-reset: gridcounter;
+
+}
+
+.grid h2{
+    font-size: 3rem;
+    position: relative;
+    padding-left: 5rem;
+    padding-bottom: 3rem;
+}
+
+.grid h2::before{
+    counter-increment: gridcounter;
+    content: counter(gridcounter);
+    position: absolute;
+    font-size: 8rem;
+    font-style: italic;
+    top: -4rem;
+    left: -2rem;
+    transform: rotate(5deg);
+}
+
+.grid-main-heading h2{
+    margin-bottom: 1rem;
+}
+
+.grid-description{
+    padding-bottom: 5rem;
 }
