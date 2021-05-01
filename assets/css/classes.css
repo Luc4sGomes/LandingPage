@@ -19,3 +19,23 @@
 .section{
     min-height: 100vh;
 }
+
+body .full-width{
+    width: 100%;
+    flex: 1 1 100%;
+}
+
+.form-group button{
+    border: 0.5rem solid var(--white-color);
+    background: none;
+    color: var(--white-color);
+    padding: 1.5rem 2rem;
+    font-size: 3rem;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.form-group button:hover{
+    background: var(--white-color);
+    color: var(--primary-color);
+}
