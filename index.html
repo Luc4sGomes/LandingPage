@@ -24,14 +24,17 @@
     <title>Landing Page</title>
   </head>
   <body class="main-background">
+
+    <input id="close-menu" class="close-menu"type="checkbox" role="button" aria-label="Close menu">
+    <label class="close-menu-label" for="close-menu" title="close-menu"></label>
     <aside class="menu white-background">
       <section class="main-content menu-content">
-        <h1>
+        <h1 onclick="getElementById('close-menu').checked = false;">
           <a href="#"><i class="fas fa-meteor"></i></a>
         </h1>
 
         <nav>
-          <ul>
+          <ul onclick="getElementById('close-menu').checked = false;">
             <li><a href="#intro">About-me</a></li>
             <li><a href="#top3">Work</a></li>
             <li><a href="#grid-one">Languages</a></li>
@@ -263,6 +266,8 @@
    <footer class="footer white-background" id="footer">
      <a href="https://www.linkedin.com/in/lucas-gomes-a640601a1/" target="_blank" rel="nofollow"><p>Feito com <span class="heart">❤</span> por Lucas Gomes</p></a>
    </footer>
+
+   <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
 
   </body>
 </html>
