@@ -146,7 +146,7 @@ form{
   }
   
   .heart {
-    color: var(--secondary-color);
+    color: red;
   }
   
   .footer p {
@@ -154,8 +154,8 @@ form{
     padding: 3rem;
   }
   
-  @media (max-width: 800px) {
-    .intro-content, .grid {
+  @media (max-width: 800px){
+    .intro-content, .grid{
       grid-template-columns: 1fr;
     }
   
