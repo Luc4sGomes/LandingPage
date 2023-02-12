@@ -69,6 +69,10 @@
 .grid-main-heading{
     margin-bottom: 15rem;
 }
+.grid-main-heading-galery{
+  display: table;
+  padding: 30px;
+}
 
 
 form{
